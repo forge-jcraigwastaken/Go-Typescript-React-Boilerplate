@@ -19,6 +19,11 @@ interface IMockEndpointResponses {
   };
 }
 
+export const mock_endpointsCommon_SumResponse: go_typescript_react_boilerplate_src_server_endpoints_common_SumResponse =
+  {
+    result: 7,
+  };
+
 export const mockEndpointResponses: IMockEndpointResponses = {
   '/api/common/health': {
     get: {
